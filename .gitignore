@@ -2,3 +2,6 @@
 serve/
 serve.log
 serve.pid
+
+# release scaffolding
+.release-notes.md
