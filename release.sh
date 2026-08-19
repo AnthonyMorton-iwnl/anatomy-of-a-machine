@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 gh release create v1.0.0 \
   --repo AnthonyMorton-iwnl/anatomy-of-a-machine \
   --title "v1.0.0 — Anatomy of a Machine" \
-  --notes-file .release-notes.md \
+  --notes-file docs/RELEASE-v1.0.0.md \
   --verify-tag \
   "dist/Anatomy-of-a-Machine.html#Anatomy-of-a-Machine.html (single file, open it in a browser)"
 gh repo edit AnthonyMorton-iwnl/anatomy-of-a-machine \
